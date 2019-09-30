@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Example Page Layout CSS</h1>
+    </header>
+    <main>
+        <section>
+            <div class="card">
+            <ul>
+                <li> Section 1 </li>
+                <li> Section 2 </li>
+                <li> Section 3 </li>
+            </ul>
+        </div>
+        </section>
+        <article>
+            <div class="article-part-1">
+                <h2>A Better Approch Than Tables or Frames</h2>
+                <p>This working file is a <b>fixed-width layout</b> made possible through of HTML5 tags and CSS3</p>
+                <p>You can use this instead of tables or frames. Feel free to adapt this as much as you want to make your own  website layout</p>
+            </div>
+            <div class="article-part-2">
+                <h2> Dividing the Page Into Sections </h2>
+                <div class="display-f">
+                <div>
+                        <p>
+                        You can split up your content into columns, but carful of not exceding 100%.
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        If you do, you will find one of your intended 'columns' is pushed underneath the others.
+                    </p>
+                </div>
+                <div>
+                    <p>This may take some tweaking of the <b>width</b> and <b> margin-right</b> properties</p>
+                </div>
+            </div>
+            </div>
+            <div class="article-part-3">
+                <h2>Go Helves</h2>
+                <div class="display-f ">
+                <div class="left">
+                    <p>You can equally  divide the page into halves, just bear in mind that your 100% is a total of your column width percentages and your margin 
+                    percentages</p>
+                    <p>We have used a <b>.last</b> class to ensure there is no <b>margin right</b> on the final column so it sits flush to the right of our site</p>
+                </div>
+                <div class="right">
+                    <p>When in doubt do the maths.</p>
+                    <ul class="segunda-lista">
+                        <li>2 Columns at 49% - 98%</li>
+                        <li>Add one margin right at 1%. Total is now 99%</li>
+                        <li>This means for 50% width case you should have done: [100% - 1%] divided by 2 - 49.5%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </article>
+    </main>
+    <footer class="footer">
+        <p>Exemple Code of <span> The Free Tutorial Center</span></p>
+    </footer>
+</body>
+</html>
